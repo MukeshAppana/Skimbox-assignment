@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+/* .pricing-plans-container {
+    width: 90%;
+    max-width: 1100px;
+} */
+
+.pricing-plan-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 40px;
+    width: 120px;
+}
+
+.plan-type {
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    width: 380px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.heading {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.description {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.price {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.duration {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inner-card {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 3px;
+}
+
+.pricing-plan-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 280px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding: 20px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+.features-list {
+    padding-left: 24px;
+    flex-grow: 1;
+}
+
+.feature {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 575px) {
+    .mobile-link {
+        display: none;
+    }
+}
